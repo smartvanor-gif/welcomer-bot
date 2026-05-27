@@ -1,0 +1,11 @@
+{
+  "name": "discord-welcomer-bot",
+  "version": "1.0.0",
+  "main": "welcomer.js",
+  "scripts": {
+    "start": "node welcomer.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0"
+  }
+}
