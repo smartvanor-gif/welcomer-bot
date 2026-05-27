@@ -25,5 +25,6 @@ client.on("guildMemberAdd", (member) => {
 
   channel.send(`Welcome to the server, ${member}! 👋 We're glad to have you.`);
 });
-
+const http = require("http");
+http.createServer((req, res) => res.end("alive")).listen(3000);
 client.login(process.env.TOKEN);
